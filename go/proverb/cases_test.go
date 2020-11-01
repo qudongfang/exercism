@@ -41,4 +41,9 @@ var stringTestCases = []proverbTest{
 		input:       []string{"pin", "gun", "soldier", "battle"},
 		expected:    []string{"For want of a pin the gun was lost.", "For want of a gun the soldier was lost.", "For want of a soldier the battle was lost.", "And all for the want of a pin."},
 	},
+	{
+		description: "five pieces modernized",
+		input:       []string{"apple", "pin", "gun", "soldier", "battle"},
+		expected:    []string{"For want of an apple the pin was lost.", "For want of a pin the gun was lost.", "For want of a gun the soldier was lost.", "For want of a soldier the battle was lost.", "And all for the want of an apple."},
+	},
 }
